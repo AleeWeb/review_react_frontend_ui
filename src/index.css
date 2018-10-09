@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.ReviewItem{
+  margin-top: 10px;
+}
+
+
+.card-img-top {
+  width: 250px !important;
+}
