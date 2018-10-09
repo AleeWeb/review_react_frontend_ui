@@ -39,7 +39,7 @@ const ReviewItem = ({ review }) => (
     <Col xs="3" />
     <Col xs="12" sm="6">
       <Card>
-        <CardImg top width="250" src={review.image}></CardImg>
+        <CardImg top width="250" src={review.image_url}></CardImg>
         <CardBody>
           <CardTitle>
             {review.review_title}
