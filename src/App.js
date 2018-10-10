@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import {
-   Jumbotron, Container, Col,  Media 
+   Jumbotron, Container, Row, Col,  Media 
 } from "reactstrap";
 import './App.css';
 
@@ -41,6 +41,24 @@ class App extends React.Component {
         return <ReviewItem review={review} key={index} />
       })}
     </ul>
+
+    <Container>
+                    <Row>
+                   <h6 className="credit">Created by 
+                   <a
+                        className="credit_link"
+                        href="https://aleeweb.github.io/alicia-portfolio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                       Alicia Alexander
+                      </a>
+
+                   </h6>
+                
+                   </Row>
+                   
+                </Container>
 
      </div>
     );
