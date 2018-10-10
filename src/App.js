@@ -55,11 +55,11 @@ const ReviewItem = ({ review }) => (
       </Media>
       <Media body>
 
-        <Media heading> 
-        {review.review_title}
-        </Media>
+        <h4>{review.review_title}</h4>
 
         <h6>User: {review.username}</h6>
+
+        <h6>Product: {review.product}</h6>
 
         <p>"{review.user_review}"</p>
       </Media>
