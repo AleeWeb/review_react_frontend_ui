@@ -29,9 +29,10 @@ class App extends React.Component {
       <div className="wrap">
       <Jumbotron fluid className="top-header">
         <Container fluid>
-        <Col md="5">
+        <Col md="5" lg="4">
           <h1 className="display-5">Tech Product Reviews</h1>
-          <p className="lead">Custom created Django REST APIs retrieved and rendered on the React Front-End.</p>
+          <p className="lead">Custom created Django REST APIs retrieved and rendered on the 
+          React Front-End.</p>
           </Col>
         </Container>
       </Jumbotron>
