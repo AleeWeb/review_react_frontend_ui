@@ -1,10 +1,41 @@
 
-.top-header {
- background-image: url('https://i.imgur.com/i97oJzs.jpg');
-background-size: cover;
-min-height: 320px;
+body {
+  background-image: url('https://i.imgur.com/sSE2GcP.jpg');
+  background-size: cover;
 }
 
-img {
-  padding-right: 20px;
+
+.top-header {
+  background-image: url('https://i.imgur.com/2z6JPq8.jpg');
+  background-size: cover;
+  min-height: 320px;
+  background-repeat: no-repeat;
+}
+
+
+.ReviewItem {
+  box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+}
+
+/* Card Color  */
+.media-body {
+  background-color: #fff;
+}
+
+.media{
+  height: 230px;
+}
+
+
+
+.right-text {
+  position: relative;
+  padding: 17px;
+}
+
+.media-body {
+  flex: .97;
+  height: 230px;
 }
