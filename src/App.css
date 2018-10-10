@@ -54,5 +54,11 @@ body {
   .top-header {
     background-position-x: -70px;
   }
+}
 
+
+@media only screen and (width: 1024px) {
+  .top-header {
+    background-position-x: -130px;
+  }
 }
