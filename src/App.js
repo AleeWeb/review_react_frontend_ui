@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   getReviews() {
-    fetch('http://127.0.0.1:8000/reviews/') 
+    fetch('https://user-tech-review.herokuapp.com/reviews/') 
     .then(results => results.json())
     .then(results => this.setState({'reviews': results}));
   }
