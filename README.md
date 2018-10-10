@@ -5,4 +5,4 @@
 
 <img src="https://i.imgur.com/NNEYJAl.png" title="Full View of Tech Product Review" />
 
-<p>To be more server-friendly, the Django and React parts are deployed as separate apps on Heroku. The React app retrieves data from the Django REST API Endpoint App.</p>
+<p>To be more server-friendly, the React front-end and Django back-end are deployed as separate apps on Heroku. The React app retrieves data from the Django REST API Endpoint App.</p>
