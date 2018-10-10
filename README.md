@@ -1,5 +1,5 @@
 
-<p>This is the <strong>front-end</strong> portion of the Full-Stack <a href="https://product-tech-reviews.herokuapp.com/" target="_blank">Tech Product Review app</a>.</p>
+<p>This is the <strong>front-end</strong> portion of the Full-Stack <a href="https://product-tech-reviews.herokuapp.com/" target="_blank">Tech Product Review web app</a>.</p>
 
 <p>It's a combination of two powerful technologies — React and Django REST API Framework!</p>
 
