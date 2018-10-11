@@ -71,7 +71,6 @@ class App extends React.Component {
 const ReviewItem = ({ review }) => (
 
   <div className="ReviewItem">
-
    <Media className="review-block">
       <Media left href="#">
         <Media src={review.image_url} />
@@ -87,6 +86,7 @@ const ReviewItem = ({ review }) => (
         <p>"{review.user_review}"</p>
       </Media>
     </Media>
+
   </div>
 )
 

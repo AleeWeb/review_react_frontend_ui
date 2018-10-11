@@ -62,3 +62,9 @@ body {
     background-position-x: -130px;
   }
 }
+
+@media only screen and (height: 900px) {
+  .top-header {
+    background-position-x: -32px;
+  }
+}
