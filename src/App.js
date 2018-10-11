@@ -1,5 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
+import 'animate.css/animate.min.css';
+
 import {
    Jumbotron, Container, Row, Col,  Media 
 } from "reactstrap";
@@ -30,10 +32,10 @@ class App extends React.Component {
       <Jumbotron fluid className="top-header">
         <Container fluid>
         
-          <h1 className="display-5">Tech Product Reviews</h1>
+          <h1 className="display-5 animated fadeInLeft">Tech Product Reviews</h1>
 
           <Col md="5" lg="4">
-          <p className="lead">Custom created Django REST APIs retrieved and rendered on the 
+          <p className="lead animated fadeIn">Custom created Django REST APIs retrieved and rendered on the 
           React Front-End.</p>
           </Col>
         </Container>
