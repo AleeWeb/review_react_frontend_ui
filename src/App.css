@@ -63,6 +63,47 @@ body {
   }
 }
 
+
+/* Mobile */
+@media only screen and (min-width: 300px) and (max-width: 414px) {
+
+  .ReviewItem {
+    margin-top: 10px;
+    position: relative;
+    right: 40px;
+    box-shadow: none;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+.media {
+  display: block;  /* So the image stacks on top of the text block */
+  width: 100%;
+  height: auto;   /* Displays the entire height length of the card text */
+}
+
+.right-text {
+position: relative;
+left: 20px;
+height: auto;
+}
+
+.media-left {
+position: relative;
+left: 20px;
+}
+
+.credit {
+  position: relative;
+  left: 30px;
+}
+
+
+}
+
+
 @media only screen and (height: 900px) {
   .top-header {
     background-position-x: -32px;
