@@ -5,4 +5,6 @@
 
 <img src="https://i.imgur.com/NNEYJAl.png" title="Full View of Tech Product Review" />
 
+<p><strong>Deployment notes</strong>: This React app points to the Django back-end app that is deployed separately on Heroku.</p>
+
 
