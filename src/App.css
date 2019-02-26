@@ -1,13 +1,14 @@
 
 body {
-  background-image: url('https://i.imgur.com/sSE2GcP.jpg');
+  background-image: url('./images/bokehbg.jpg');
   background-size: cover;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 
 .top-header {
-  background-image: url('https://i.imgur.com/2z6JPq8.jpg');
+  background-image: url('./images/main_banner.jpg');
   background-size: cover;
   min-height: 320px;
   background-repeat: no-repeat;
@@ -30,10 +31,26 @@ body {
 }
 
 
-
 .right-text {
   position: relative;
   padding: 17px;
+}
+
+.img-overlay {
+	position: absolute;
+	z-index: 100;
+	width: 409px;
+  height: 230px;
+
+}
+
+.img-overlay:hover {
+	background-color: rgba(33, 102, 242, 0.45);
+}
+
+.review-thubnail {
+	position: relative;
+	z-index: -100;
 }
 
 .media-body {
