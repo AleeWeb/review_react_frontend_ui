@@ -36,8 +36,7 @@ class App extends React.Component {
             <h1 className="display-5 animated fadeInLeft">Tech Product Reviews</h1>
 
             <Col md="5" lg="4">
-              <p className="lead animated fadeIn">Custom created Django REST APIs retrieved and rendered on the
-          React Front-End.</p>
+              <p className="lead animated fadeIn">Custom created Django REST APIs retrieved through React and FETCH API.</p>
             </Col>
           </Container>
         </Jumbotron>
@@ -76,9 +75,11 @@ const ReviewItem = ({ review }) => (
   <div className="ReviewItem">
     <Media className="review-block hvr-shadow">
 
-      <img className="review-thubnail" src={review.image_url} />
+      <a href={review.product_url} rel="noopener noreferrer" target="_blank">
+        <div className="img-overlay hvr-trim"></div>
+        <img src={review.image_url} className="review-thubnail" alt="product review thumb" />
+      </a>
 
-      <div className="img-overlay hvr-trim"></div>
 
       <Media body className="right-text">
 
@@ -89,10 +90,11 @@ const ReviewItem = ({ review }) => (
         <h6>Product: {review.product}</h6>
 
         <p>"{review.user_review}"</p>
+
       </Media>
     </Media>
 
-  </div>
+  </div >
 )
 
 export default App;
